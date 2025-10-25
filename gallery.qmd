@@ -1,0 +1,51 @@
+---
+title: "Photo Gallery"
+---
+
+:::{.text-center .mb-5}
+# Beautiful Moments with Propa 📸
+:::
+
+:::{.gallery}
+::: {.gallery-item}
+![](images/placeholder1.jpg)
+
+*A beautiful family moment*
+:::
+
+::: {.gallery-item}
+![](images/placeholder2.jpg)
+
+*Celebrating together*
+:::
+
+::: {.gallery-item}
+![](images/placeholder3.jpg)
+
+*Special memories*
+:::
+
+::: {.gallery-item}
+![](images/placeholder4.jpg)
+
+*Happy times*
+:::
+:::
+
+::: {.alert .alert-info .text-center .mt-4}
+**Note**: Replace the placeholder images with actual photos of Propa and family moments!
+:::
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const items = document.querySelectorAll('.gallery-item');
+  items.forEach(item => {
+    item.addEventListener('mouseenter', (e) => {
+      party.sparkles(e.target, {
+        count: party.variation.range(5, 10),
+        speed: party.variation.range(50, 150),
+      });
+    });
+  });
+});
+</script>

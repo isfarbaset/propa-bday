@@ -1,0 +1,36 @@
+project:
+  type: website
+
+website:
+  title: "Happy Birthday Propa! 🎉"
+  navbar:
+    background: dark
+    search: false
+    left:
+      - href: index.qmd
+        text: Home
+      - href: wishes.qmd
+        text: Birthday Wishes
+      - href: gallery.qmd
+        text: Gallery
+      - href: memories.qmd
+        text: Memories
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    css: styles.css
+    page-layout: full
+    anchor-sections: false
+    smooth-scroll: true
+    include-in-header:
+      - text: |
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    include-after-body:
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+
+
+

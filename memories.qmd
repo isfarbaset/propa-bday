@@ -1,0 +1,53 @@
+---
+title: "Precious Memories"
+---
+
+:::{.text-center .mb-5}
+# Special Memories with Propa 💖
+:::
+
+:::{.memory-grid}
+
+::: {.memory-card}
+### First Family Gathering
+*A beautiful moment when we all came together as family*
+
+Remember that wonderful dinner where we shared stories and laughter? Your warmth made everyone feel so at home.
+:::
+
+::: {.memory-card}
+### Cooking Adventures
+*Creating delicious memories in the kitchen*
+
+That time when we attempted to make your favorite dish together - more laughter than cooking, but perfect memories!
+:::
+
+::: {.memory-card}
+### Festive Celebrations
+*Making every festival special*
+
+Your enthusiasm during celebrations brings extra joy to every occasion. You make every moment memorable!
+:::
+
+::: {.memory-card}
+### Shopping Adventures
+*Fun times exploring the city*
+
+Those impromptu shopping trips where we lost track of time, finding treasures and sharing stories.
+:::
+
+:::
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll('.memory-card');
+  cards.forEach(card => {
+    card.addEventListener('mouseenter', (e) => {
+      party.sparkles(e.target, {
+        count: party.variation.range(10, 20),
+        speed: party.variation.range(50, 200),
+      });
+    });
+  });
+});
+</script>

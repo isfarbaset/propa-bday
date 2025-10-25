@@ -1,0 +1,44 @@
+---
+title: "Birthday Wishes"
+---
+
+:::{.wishes-container}
+# Birthday Wishes for Propa 💝
+
+:::{.wish-card}
+Dear Propa,
+
+Your presence in our family brings so much joy and warmth. You're not just a sister-in-law, but a true sister at heart. May your birthday be as special as you are!
+
+*- With love from your brother and sister-in-law*
+:::
+
+:::{.wish-card}
+Happy Birthday to someone who brings sunshine to our family gatherings! Your smile lights up every room you enter. Wishing you a year filled with beautiful moments!
+
+*- Your loving family*
+:::
+
+:::{.wish-card}
+To our dearest Propa,
+
+May this year bring you endless opportunities, boundless happiness, and all the success you deserve. Keep shining bright!
+
+*- With lots of love*
+:::
+
+:::
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll('.wish-card');
+  cards.forEach(card => {
+    card.addEventListener('mouseenter', (e) => {
+      party.sparkles(e.target, {
+        count: party.variation.range(10, 20),
+        speed: party.variation.range(50, 200),
+      });
+    });
+  });
+});
+</script>

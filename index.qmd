@@ -1,0 +1,33 @@
+---
+title: "Happy Birthday Propa!"
+---
+
+:::{.hero}
+# 🎉 Happy Birthday Propa! 🎂
+<p class="lead">Wishing you a day filled with joy, laughter, and unforgettable moments!</p>
+
+<div class="birthday-card">
+  <h2>To Our Wonderful Sister-in-Law</h2>
+  <p>On this special day, we celebrate you! Your kindness, warmth, and beautiful spirit make our family complete. May this year bring you endless happiness, success, and all the dreams your heart desires.</p>
+  <p>With love,<br>Your Family ❤️</p>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  // Add confetti effect when the page loads
+  party.confetti(document.querySelector('.hero'), {
+    count: party.variation.range(50, 100),
+    size: party.variation.range(0.6, 1.4),
+    spread: 50,
+  });
+  
+  // Add click event for more confetti
+  document.querySelector('.hero').addEventListener('click', (e) => {
+    party.sparkles(e.target, {
+      count: party.variation.range(20, 40),
+      speed: party.variation.range(100, 300),
+    });
+  });
+});
+</script>
+:::
