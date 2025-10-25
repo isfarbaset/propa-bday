@@ -1,7 +1,11 @@
 project:
   type: website
+  output-dir: docs
 
 website:
+  site-url: https://isfarbaset.github.io/propa-bday/
+  repo-url: https://github.com/isfarbaset/propa-bday
+  repo-actions: [edit, issue]
   title: "Happy Birthday Propa! 🎉"
   navbar:
     background: dark
@@ -31,6 +35,3 @@ format:
     include-after-body:
       - text: |
           <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
-
-
-
