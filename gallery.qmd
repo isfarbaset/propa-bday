@@ -8,45 +8,45 @@ title: "Photo Gallery"
 
 :::{.gallery}
 ::: {.gallery-item}
+![](images/best-sis-in-law.jpg)
+
+*Best sister-in-law ever!*
+:::
+
+::: {.gallery-item}
+![](images/best-sibling-duo.jpg)
+
+*The best sibling duo*
+:::
+
+::: {.gallery-item}
+![](images/sibling-love-frame-this!.jpg)
+
+*Sibling love - frame this!*
+:::
+
+::: {.gallery-item}
+![](images/when-we-officially-became-family.jpg)
+
+*When we officially became family*
+:::
+
+::: {.gallery-item}
+![](images/love-you.jpg)
+
+*Love you!*
+:::
+
+::: {.gallery-item}
 ![](images/candid.jpg)
 
-*A beautiful candid moment*
-:::
-
-::: {.gallery-item}
-![](images/I%20&%20F%20Wedding-787.jpg)
-
-*Wedding celebration*
-:::
-
-::: {.gallery-item}
-![](images/I%20&%20F%20Wedding-854.jpg)
-
-*Special wedding moments*
-:::
-
-::: {.gallery-item}
-![](images/Mehendi%20-259.jpg)
-
-*Mehendi festivities*
+*Beautiful candid moment*
 :::
 
 ::: {.gallery-item}
 ![](images/Mehendi%20-443.jpg)
 
-*Beautiful Mehendi celebration*
-:::
-
-::: {.gallery-item}
-![](images/Mehendi%20-501.jpg)
-
-*Joyful Mehendi memories*
-:::
-
-::: {.gallery-item}
-![](images/I%20&%20F%20Akdh-545.jpg)
-
-*Celebrating together*
+*Mehendi celebration*
 :::
 :::
 

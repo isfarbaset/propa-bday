@@ -4,17 +4,13 @@ title: ""
 
 :::{.hero}
 # 🎉 Happy Birthday Propa Apu! 🎂
-<p class="lead">Wishing you a day filled with joy, laughter, and unforgettable moments!</p>
 
 <div class="profile-image">
 <img src="images/profile.jpg" alt="Propa Apu">
 </div>
 
-<div class="birthday-card">
-  <h2>To Our Wonderful Propa Apu</h2>
-  <p>On this special day, we celebrate you! Your kindness, warmth, and beautiful spirit make our family complete. May this year bring you endless happiness, success, and all the dreams your heart desires.</p>
-  <p>With love,<br>Your Family ❤️</p>
-</div>
+<p class="lead">To the most selfless, caring, and amazing person we know!</p>
+<p class="hero-message">You are the best sister, sister-in-law, mother, daughter, and wife anyone could ask for. You're amazingly talented at everything you do, and your kindness touches everyone around you. You deserve all the happiness in the world!</p>
 
 <!-- Navigation Buttons -->
 <div class="nav-buttons">
