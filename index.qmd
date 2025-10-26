@@ -28,8 +28,7 @@ title: "Happy Birthday Propa Apu!"
 <div class="btn-icon">💖</div>
 <div class="btn-text">Special Memories</div>
 <div class="btn-subtitle">Cherished times with you</div>
-</a>
-</div>
+</a></div>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
