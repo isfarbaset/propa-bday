@@ -8,32 +8,46 @@ title: "Photo Gallery"
 
 :::{.gallery}
 ::: {.gallery-item}
-![](images/placeholder1.jpg)
+![](images/candid.jpg)
 
-*A beautiful family moment*
+*A beautiful candid moment*
 :::
 
 ::: {.gallery-item}
-![](images/placeholder2.jpg)
+![](images/I%20&%20F%20Wedding-787.jpg)
+
+*Wedding celebration*
+:::
+
+::: {.gallery-item}
+![](images/I%20&%20F%20Wedding-854.jpg)
+
+*Special wedding moments*
+:::
+
+::: {.gallery-item}
+![](images/Mehendi%20-259.jpg)
+
+*Mehendi festivities*
+:::
+
+::: {.gallery-item}
+![](images/Mehendi%20-443.jpg)
+
+*Beautiful Mehendi celebration*
+:::
+
+::: {.gallery-item}
+![](images/Mehendi%20-501.jpg)
+
+*Joyful Mehendi memories*
+:::
+
+::: {.gallery-item}
+![](images/I%20&%20F%20Akdh-545.jpg)
 
 *Celebrating together*
 :::
-
-::: {.gallery-item}
-![](images/placeholder3.jpg)
-
-*Special memories*
-:::
-
-::: {.gallery-item}
-![](images/placeholder4.jpg)
-
-*Happy times*
-:::
-:::
-
-::: {.alert .alert-info .text-center .mt-4}
-**Note**: Replace the placeholder images with actual photos of Propa Apu and family moments!
 :::
 
 <div class="text-center mt-5">

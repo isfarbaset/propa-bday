@@ -6,6 +6,10 @@ title: ""
 # 🎉 Happy Birthday Propa Apu! 🎂
 <p class="lead">Wishing you a day filled with joy, laughter, and unforgettable moments!</p>
 
+<div class="profile-image">
+<img src="images/profile.jpg" alt="Propa Apu">
+</div>
+
 <div class="birthday-card">
   <h2>To Our Wonderful Propa Apu</h2>
   <p>On this special day, we celebrate you! Your kindness, warmth, and beautiful spirit make our family complete. May this year bring you endless happiness, success, and all the dreams your heart desires.</p>

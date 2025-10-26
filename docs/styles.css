@@ -26,6 +26,28 @@ body {
   overflow: hidden;
 }
 
+/* Profile Image */
+.profile-image {
+  margin: 2rem 0;
+  animation: fadeInUp 1s ease-out 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.profile-image img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.profile-image img:hover {
+  transform: scale(1.05) rotate(5deg);
+}
+
 .hero h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
