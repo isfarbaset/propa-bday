@@ -14,23 +14,23 @@ title: "Happy Birthday Propa Apu!"
 
 <!-- Navigation Buttons -->
 <div class="nav-buttons">
-  <a href="wishes.html" class="nav-btn btn-wishes">
-    <div class="btn-icon">💝</div>
-    <div class="btn-text">Birthday Wishes</div>
-    <div class="btn-subtitle">See what we wrote for you</div>
-  </a>
-  
-  <a href="gallery.html" class="nav-btn btn-gallery">
-    <div class="btn-icon">📸</div>
-    <div class="btn-text">Photo Gallery</div>
-    <div class="btn-subtitle">Beautiful moments together</div>
-  </a>
-  
-  <a href="memories.html" class="nav-btn btn-memories">
-    <div class="btn-icon">💖</div>
-    <div class="btn-text">Special Memories</div>
-    <div class="btn-subtitle">Cherished times with you</div>
-  </a>
+<a href="wishes.html" class="nav-btn btn-wishes">
+<div class="btn-icon">💝</div>
+<div class="btn-text">Birthday Wishes</div>
+<div class="btn-subtitle">See what we wrote for you</div>
+</a>
+
+<a href="gallery.html" class="nav-btn btn-gallery">
+<div class="btn-icon">📸</div>
+<div class="btn-text">Photo Gallery</div>
+<div class="btn-subtitle">Beautiful moments together</div>
+</a>
+
+<a href="memories.html" class="nav-btn btn-memories">
+<div class="btn-icon">💖</div>
+<div class="btn-text">Special Memories</div>
+<div class="btn-subtitle">Cherished times with you</div>
+</a>
 </div>
 
 <script>
