@@ -10,7 +10,7 @@ title: ""
 </div>
 
 <p class="lead">To the most selfless, caring, and amazing person we know!</p>
-<p class="hero-message">You are the best <span class="highlight">sister</span>, <span class="highlight">sister-in-law</span>, <span class="highlight">mother</span>, <span class="highlight">daughter</span>, and <span class="highlight">wife</span> anyone could ask for. You're amazingly talented at everything you do, and your kindness touches everyone around you. You deserve all the happiness in the world!</p>
+<p class="hero-message">You are the best <span class="role-highlight">sister</span>, <span class="role-highlight">sister-in-law</span>, <span class="role-highlight">mother</span>, <span class="role-highlight">daughter</span>, and <span class="role-highlight">wife</span> anyone could ask for. You're amazingly talented at everything you do, and your kindness touches everyone around you. You deserve all the happiness in the world!</p>
 
 <!-- Navigation Buttons -->
 <div class="nav-buttons">

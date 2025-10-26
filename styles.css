@@ -58,15 +58,16 @@ body {
   animation-fill-mode: forwards;
 }
 
-.highlight {
-  background: linear-gradient(135deg, var(--birthday-gold) 0%, #ffa500 100%) !important;
-  padding: 0.2rem 0.5rem !important;
-  border-radius: 5px !important;
-  color: white !important;
-  font-weight: bold !important;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2) !important;
+.role-highlight {
+  background: linear-gradient(135deg, #ffd700 0%, #ff8c00 100%) !important;
+  padding: 0.3rem 0.6rem !important;
+  border-radius: 8px !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
   display: inline-block !important;
-  margin: 0 0.1rem !important;
+  margin: 0 0.2rem !important;
+  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.4) !important;
 }
 
 .hero h1 {
