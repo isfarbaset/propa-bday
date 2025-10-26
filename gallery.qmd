@@ -42,6 +42,24 @@ title: "Photo Gallery"
 
 *Mehendi celebration*
 :::
+
+::: {.gallery-item}
+![](images/cute%20uzi.jpeg)
+
+*Cute Uzi*
+:::
+
+::: {.gallery-item}
+![](images/mama%20bear.jpeg)
+
+*Mama bear*
+:::
+
+::: {.gallery-item}
+![](images/fam%20time.jpeg)
+
+*Family time*
+:::
 :::
 
 <div class="text-center mt-5">
