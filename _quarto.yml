@@ -3,22 +3,10 @@ project:
   output-dir: docs
 
 website:
+  title: "Happy Birthday Propa Apu! 🎉"
   site-url: https://isfarbaset.github.io/propa-bday/
   repo-url: https://github.com/isfarbaset/propa-bday
   repo-actions: [edit, issue]
-  title: "Happy Birthday Propa! 🎉"
-  navbar:
-    background: dark
-    search: false
-    left:
-      - href: index.qmd
-        text: Home
-      - href: wishes.qmd
-        text: Birthday Wishes
-      - href: gallery.qmd
-        text: Gallery
-      - href: memories.qmd
-        text: Memories
 
 format:
   html:
@@ -35,3 +23,6 @@ format:
     include-after-body:
       - text: |
           <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+
+
+

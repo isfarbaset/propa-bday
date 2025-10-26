@@ -3,10 +3,10 @@ title: "Birthday Wishes"
 ---
 
 :::{.wishes-container}
-# Birthday Wishes for Propa 💝
+# Birthday Wishes for Propa Apu 💝
 
 :::{.wish-card}
-Dear Propa,
+Dear Propa Apu,
 
 Your presence in our family brings so much joy and warmth. You're not just a sister-in-law, but a true sister at heart. May your birthday be as special as you are!
 
@@ -20,7 +20,7 @@ Happy Birthday to someone who brings sunshine to our family gatherings! Your smi
 :::
 
 :::{.wish-card}
-To our dearest Propa,
+To our dearest Propa Apu,
 
 May this year bring you endless opportunities, boundless happiness, and all the success you deserve. Keep shining bright!
 
@@ -28,6 +28,12 @@ May this year bring you endless opportunities, boundless happiness, and all the 
 :::
 
 :::
+
+<div class="text-center mt-5">
+  <a href="index.html" class="home-btn">
+    <i class="fas fa-home"></i> Back to Home
+  </a>
+</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {

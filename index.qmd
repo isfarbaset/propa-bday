@@ -1,15 +1,36 @@
 ---
-title: "Happy Birthday Propa!"
+title: "Happy Birthday Propa Apu!"
 ---
 
 :::{.hero}
-# 🎉 Happy Birthday Propa! 🎂
+# 🎉 Happy Birthday Propa Apu! 🎂
 <p class="lead">Wishing you a day filled with joy, laughter, and unforgettable moments!</p>
 
 <div class="birthday-card">
-  <h2>To Our Wonderful Sister-in-Law</h2>
+  <h2>To Our Wonderful Propa Apu</h2>
   <p>On this special day, we celebrate you! Your kindness, warmth, and beautiful spirit make our family complete. May this year bring you endless happiness, success, and all the dreams your heart desires.</p>
   <p>With love,<br>Your Family ❤️</p>
+</div>
+
+<!-- Navigation Buttons -->
+<div class="nav-buttons">
+  <a href="wishes.html" class="nav-btn btn-wishes">
+    <div class="btn-icon">💝</div>
+    <div class="btn-text">Birthday Wishes</div>
+    <div class="btn-subtitle">See what we wrote for you</div>
+  </a>
+  
+  <a href="gallery.html" class="nav-btn btn-gallery">
+    <div class="btn-icon">📸</div>
+    <div class="btn-text">Photo Gallery</div>
+    <div class="btn-subtitle">Beautiful moments together</div>
+  </a>
+  
+  <a href="memories.html" class="nav-btn btn-memories">
+    <div class="btn-icon">💖</div>
+    <div class="btn-text">Special Memories</div>
+    <div class="btn-subtitle">Cherished times with you</div>
+  </a>
 </div>
 
 <script>
@@ -21,11 +42,23 @@ document.addEventListener("DOMContentLoaded", () => {
     spread: 50,
   });
   
-  // Add click event for more confetti
+  // Add click event for more confetti on hero
   document.querySelector('.hero').addEventListener('click', (e) => {
-    party.sparkles(e.target, {
-      count: party.variation.range(20, 40),
-      speed: party.variation.range(100, 300),
+    if (!e.target.closest('.nav-btn')) {
+      party.sparkles(e.target, {
+        count: party.variation.range(20, 40),
+        speed: party.variation.range(100, 300),
+      });
+    }
+  });
+  
+  // Add sparkle effect when hovering over buttons
+  document.querySelectorAll('.nav-btn').forEach(btn => {
+    btn.addEventListener('mouseenter', (e) => {
+      party.sparkles(e.target, {
+        count: party.variation.range(15, 25),
+        speed: party.variation.range(100, 250),
+      });
     });
   });
 });

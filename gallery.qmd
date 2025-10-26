@@ -3,7 +3,7 @@ title: "Photo Gallery"
 ---
 
 :::{.text-center .mb-5}
-# Beautiful Moments with Propa 📸
+# Beautiful Moments with Propa Apu 📸
 :::
 
 :::{.gallery}
@@ -33,8 +33,14 @@ title: "Photo Gallery"
 :::
 
 ::: {.alert .alert-info .text-center .mt-4}
-**Note**: Replace the placeholder images with actual photos of Propa and family moments!
+**Note**: Replace the placeholder images with actual photos of Propa Apu and family moments!
 :::
+
+<div class="text-center mt-5">
+  <a href="index.html" class="home-btn">
+    <i class="fas fa-home"></i> Back to Home
+  </a>
+</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {

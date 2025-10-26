@@ -3,7 +3,7 @@ title: "Precious Memories"
 ---
 
 :::{.text-center .mb-5}
-# Special Memories with Propa 💖
+# Special Memories with Propa Apu 💖
 :::
 
 :::{.memory-grid}
@@ -37,6 +37,12 @@ Those impromptu shopping trips where we lost track of time, finding treasures an
 :::
 
 :::
+
+<div class="text-center mt-5">
+  <a href="index.html" class="home-btn">
+    <i class="fas fa-home"></i> Back to Home
+  </a>
+</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
