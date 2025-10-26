@@ -8,12 +8,6 @@ title: "Photo Gallery"
 
 :::{.gallery}
 ::: {.gallery-item}
-![](images/best-sis-in-law.jpg)
-
-*Best sister-in-law ever!*
-:::
-
-::: {.gallery-item}
 ![](images/best-sibling-duo.jpg)
 
 *The best sibling duo*
