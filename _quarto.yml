@@ -5,8 +5,6 @@ project:
 website:
   title: "Happy Birthday Propa Apu! 🎉"
   site-url: https://isfarbaset.github.io/propa-bday/
-  repo-url: https://github.com/isfarbaset/propa-bday
-  repo-actions: [edit, issue]
 
 format:
   html:
